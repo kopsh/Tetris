@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.tetris-square {
+  border: 1px solid #999;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.tetris-square-red {
+  border: 1px solid #999;
+  width: 20px;
+  height: 20px;
+  float: left;
+  background-color: red;
+}
+
+.tetris-row:before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.game-board {
+  margin: auto;
+  width: 220px;
+}
+
+.score-board {
+  margin-top: 300px;
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.tetris-board {
+  width: 220px;
+}
